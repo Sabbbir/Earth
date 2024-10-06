@@ -132,3 +132,27 @@ Push your changes to your forked repository:
 
 ### 5. Open a pull request
 Once your changes are pushed, go to the original repository on GitHub and open a pull request. Make sure to include a clear description of what you’ve done and why.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## Acknowledgments
+
+- [Three.js](https://threejs.org/) for providing the powerful 3D JavaScript library.
+- [NASA Visible Earth](https://visibleearth.nasa.gov/) for Earth texture resources.
+- Inspiration from other 3D Earth visualization projects.
+
+## Reporting Issues
+
+If you find any bugs or have feature requests, please open an issue on [GitHub Issues](https://github.com/Sabbbir/Earth/issues).
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- **Name**: Sabbir Ahmed
+- **Email**: [your-email@example.com](mailto:sabbir.ahmed.cse19.just@gmail.com)
+- **GitHub**: [Sabbbir](https://github.com/Sabbbir)
