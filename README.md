@@ -33,7 +33,7 @@ This project is a 3D interactive visualization of Earth and the International Sp
 
 ### Installation
     npm install
-    
+
 ### Run locally!!
     npm run dev
  
@@ -87,3 +87,18 @@ Once the application is running, you can interact with the following features fr
 - **Orbit Speed Slider**: Adjust the speed at which the ISS orbits Earth.
 - **Orbit Radius Slider**: Change the distance of the ISS from Earth.
 - **Scale Slider**: Modify the size of the ISS model.
+
+## Controls Overview
+
+| Control               | Description                                          |
+|-----------------------|------------------------------------------------------|
+| **Earth Rotation Speed**  | Slider to adjust the rotation speed of Earth.       |
+| **Reverse Rotation**      | Button to toggle the direction of Earth's rotation. |
+| **Auto Rotate**           | Button to automatically rotate the camera around Earth. |
+| **Star Count**            | Slider to adjust the number of stars in the background. |
+| **Ozone Radius**          | Slider to control the ozone layer's size.           |
+| **Ozone Strength**        | Slider to adjust the intensity of the ozone layer.  |
+| **ISS Orbit Speed**       | Slider to adjust the ISS orbit speed around Earth.  |
+| **ISS Orbit Radius**      | Slider to adjust the ISS's distance from Earth.     |
+| **ISS Scale**             | Slider to control the size of the ISS model.        |
+-----------------------------------------------------------------------------------
