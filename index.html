@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Earth Visualization with ISS Orbit</title>
+    <style>
+        body { margin: 0; overflow: hidden; background-color: #000; }
+        #controlContainer {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 20px;
+            border-radius: 10px;
+            z-index: 10;
+            font-family: Arial, sans-serif;
+            width: 320px;
+        }
+        #controlContainer h2 {
+            margin-top: 0;
+            text-align: center;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .sliderContainer {
+            margin-bottom: 20px;
+        }
+        .sliderContainer label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+        .sliderContainer input[type="range"] {
+            width: 100%;
+        }
+        #controlContainer button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 6px;
+            background-color: #17a2b8;
+            color: #fff;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        #controlContainer button:hover {
+            background-color: #138496;
+            transform: translateY(-2px);
+        }
+        #controlContainer button:active {
+            transform: translateY(0);
+            background-color: #117a8b;
+        }
+        .toggleSection {
+            display: none;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Control Panel -->
+    <div id="controlContainer">
+        <h2>Earth and ISS Controls</h2>
+        
+        <!-- Earth Rotation Speed Slider -->
+        <div class="sliderContainer">
+            <label for="speedControl">Earth Rotation Speed</label>
+            <input type="range" id="speedControl" min="0" max="1000" value="30">
+        </div>
+        
+        <!-- Reverse Rotation Button -->
+        <button id="reverseRotationBtn">Reverse Rotation</button>
+        
+        <!-- Auto Rotate Button -->
+        <button id="autoRotateBtn">Auto Rotate</button>
+        
+        <!-- Star Count Controls -->
+        <button id="starCountBtn">Star Count</button>
+        <div id="starCountControls" class="toggleSection">
+            <div class="sliderContainer">
+                <label for="starCountSlider">Number of Stars: <span id="starCountValue">30,000</span></label>
+                <input type="range" id="starCountSlider" min="1000" max="1000000" step="1000" value="50000">
+            </div>
+        </div>
+        
+        <!-- Ozone Controls -->
+        <button id="ozoneControlBtn">Ozone Controls</button>
+        <div id="ozoneControlsContainer" class="toggleSection">
+            <div class="sliderContainer">
+                <label for="ozoneRadiusSlider">Radius: <span id="ozoneRadiusValue">1.15</span></label>
+                <input type="range" id="ozoneRadiusSlider" min="1.0" max="2.0" step="0.01" value="1.15">
+            </div>
+            <div class="sliderContainer">
+                <label for="ozoneStrengthSlider">Strength: <span id="ozoneStrengthValue">0.60</span></label>
+                <input type="range" id="ozoneStrengthSlider" min="0.0" max="1.0" step="0.01" value="0.60">
+            </div>
+        </div>
+        
+        <!-- ISS Controls -->
+        <button id="issControlBtn">ISS Controls</button>
+        <div id="issControlsContainer" class="toggleSection">
+            <div class="sliderContainer">
+                <label for="issOrbitSpeedSlider">ISS Orbit Speed: <span id="issOrbitSpeedValue">0.01</span></label>
+                <input type="range" id="issOrbitSpeedSlider" min="0.001" max="0.5" step="0.001" value="0.01">
+            </div>
+            <div class="sliderContainer">
+                <label for="issOrbitRadiusSlider">ISS Orbit Radius: <span id="issOrbitRadiusValue">7.00</span></label>
+                <input type="range" id="issOrbitRadiusSlider" min="5.0" max="150.0" step="0.1" value="7.0">
+            </div>
+            <div class="sliderContainer">
+                <label for="issScaleSlider">ISS Scale: <span id="issScaleValue">0.01</span></label>
+                <input type="range" id="issScaleSlider" min="0.001" max="0.5" step="0.001" value="0.01">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Three.js Renderer -->
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
