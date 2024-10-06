@@ -61,12 +61,15 @@ Here is the structure of the project showing the key files and directories:
 │   │   └── sun.glb             # 3D model of the Sun
 ├── src/                        # Source directory for project files
 │   ├── main.js                 # Core JavaScript file for three.js setup
-│   ├── shaders/                # Directory for custom shaders
-│   │   ├── atmosphereFragment.glsl  # Fragment shader for atmosphere effect
-│   │   ├── atmosphereVertex.glsl    # Vertex shader for atmosphere effect
-│   │   ├── fragment.glsl            # Fragment shader for Earth
-│   │   ├── ozoneFragment.glsl       # Fragment shader for ozone layer
-│   │   ├── ozoneVertex.glsl         # Vertex shader for ozone layer
+│   └── shaders/                # Directory for custom shaders
+│       ├── atmosphereFragment.glsl  # Fragment shader for atmosphere effect
+│       ├── atmosphereVertex.glsl    # Vertex shader for atmosphere effect
+│       ├── fragment.glsl            # Fragment shader for Earth
+│       ├── ozoneFragment.glsl       # Fragment shader for ozone layer
+│       └── ozoneVertex.glsl         # Vertex shader for ozone layer
+├── README.md                   # Project documentation
+└── .gitignore                  # Git ignore file to exclude unnecessary files
+  
 ```
 ## Usage
 
