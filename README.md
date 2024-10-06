@@ -116,4 +116,13 @@ Fork the project repository to your own GitHub account by clicking the "Fork" bu
 
 Clone the repository to your local machine and create a new branch for your feature or fix:
    ```bash
-   git checkout -b feature/YourFeature
+    git checkout -b feature/YourFeature
+```
+### 3. Commit your changes
+Make your changes, then commit them with a meaningful commit message:
+    git commit -m 'Add YourFeature'
+
+### 3. Push the changes
+Push your changes to your forked repository:
+    git push origin feature/YourFeature
+
