@@ -31,9 +31,6 @@ This project is a 3D interactive visualization of Earth and the International Sp
 
    ```bash
     git clone https://github.com/Sabbbir/Earth.git
-
-    ```
-    ```bash
     cd Earth
 
   ```
@@ -45,7 +42,7 @@ This project is a 3D interactive visualization of Earth and the International Sp
 
      ```bash
     npm run dev    
-      
+
     ```
 
 
