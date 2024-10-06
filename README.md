@@ -122,7 +122,9 @@ Clone the repository to your local machine and create a new branch for your feat
 Make your changes, then commit them with a meaningful commit message:
     git commit -m 'Add YourFeature'
 
-### 3. Push the changes
+### 4. Push the changes
 Push your changes to your forked repository:
     git push origin feature/YourFeature
 
+### 5. Open a pull request
+Once your changes are pushed, go to the original repository on GitHub and open a pull request. Make sure to include a clear description of what you’ve done and why.
