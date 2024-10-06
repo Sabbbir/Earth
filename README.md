@@ -39,7 +39,7 @@ This project is a 3D interactive visualization of Earth and the International Sp
 
 
 
-Access the application:
+## Access the application:
 
 Once the server is running, navigate to the provided URL in your web browser to interact with the Earth Visualization app.
 
