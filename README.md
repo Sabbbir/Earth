@@ -134,9 +134,6 @@ Push your changes to your forked repository:
 Once your changes are pushed, go to the original repository on GitHub and open a pull request. Make sure to include a clear description of what you’ve done and why.
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 ## Acknowledgments
@@ -156,3 +153,7 @@ If you have any questions or suggestions, feel free to reach out:
 - **Name**: Sabbir Ahmed
 - **Email**: [your-email@example.com](mailto:sabbir.ahmed.cse19.just@gmail.com)
 - **GitHub**: [Sabbbir](https://github.com/Sabbbir)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
