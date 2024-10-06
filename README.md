@@ -42,7 +42,14 @@ This project is a 3D interactive visualization of Earth and the International Sp
      npm run dev    
 
   ```
-
+### Run locally
+    npm i
+    npm install
+    npx vite
+    
+### Only 2 commands let you run the project!
+    npm i
+    npx vite
 
 
 Access the application:
