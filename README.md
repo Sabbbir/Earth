@@ -63,7 +63,7 @@ Here is the structure of the project showing the key files and directories:
 ├── package-lock.json           # Lockfile for npm dependencies
 ├── README.md                   # Project documentation
 └── .gitignore                  # Git ignore file to exclude unnecessary files
-
+```
 ## Usage
 
 Once the application is running, you can interact with the following features from the control panel:
