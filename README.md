@@ -106,12 +106,14 @@ Once the application is running, you can interact with the following features fr
 
 ## How to Contribute
 
-## Fork the repository:
-## Create your feature branch:
+If you'd like to contribute to this project, follow the steps below:
+
+### 1. Fork the repository
+
+Fork the project repository to your own GitHub account by clicking the "Fork" button at the top of the repository page.
+
+### 2. Create your feature branch
+
+Clone the repository to your local machine and create a new branch for your feature or fix:
+   ```bash
    git checkout -b feature/YourFeature
-
-## Commit your changes:
-    git commit -m 'Add YourFeature'
-
-## Push the changes:
-    git push origin feature/YourFeature
