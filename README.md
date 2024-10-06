@@ -26,25 +26,23 @@ This project is a 3D interactive visualization of Earth and the International Sp
 - **Web Browser**: Modern browser with WebGL support (e.g., Google Chrome, Mozilla Firefox, Microsoft Edge).
 
 ### Steps
-
-1. **Clone the repository**:
-    
+  
 
 2. **Installation**:
     
-    npm install
+    
 
 3. **Run!!**:
     
-    npm run dev    
+        
 
-### Run locally
+### Clone the repository
     git clone https://github.com/Sabbbir/Earth.git
     cd Earth
 ### Run locally
-    npm i
     npm install
-    npx vite
+### Run locally
+    npm run dev
  
 
 ## Access the application:
