@@ -102,3 +102,16 @@ Once the application is running, you can interact with the following features fr
 | **ISS Orbit Radius**      | Slider to adjust the ISS's distance from Earth.     |
 | **ISS Scale**             | Slider to control the size of the ISS model.        |
 -----------------------------------------------------------------------------------
+
+
+## How to Contribute
+
+## Fork the repository:
+## Create your feature branch:
+   git checkout -b feature/YourFeature
+
+## Commit your changes:
+    git commit -m 'Add YourFeature'
+
+## Push the changes:
+    git push origin feature/YourFeature
