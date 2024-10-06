@@ -12,11 +12,11 @@ This project is a 3D interactive visualization of Earth and the International Sp
 
 ## Screenshots
 
-![Screenshot of Start Screen](screenshot1.png)
 *Figure 1: Start screen showing Earth with atmosphere and star background.*
+![Screenshot of Start Screen](screenshot1.png)
 
-![Screenshot of ISS Orbit and other Controls](screenshot2.png)
 *Figure 2: ISS orbiting Earth with control panel displayed.*
+![Screenshot of ISS Orbit and other Controls](screenshot2.png)
 
 ## Installation and Setup
 
