@@ -39,7 +39,7 @@ scene.add(hemisphereLight);
 
 // Create Earth
 const earthGeometry = new THREE.SphereGeometry(5, 50, 50);
-const earthTexture = new THREE.TextureLoader().load('/assets/earth.jpg');
+const earthTexture = new THREE.TextureLoader().load('/assets/earth.jpg'); // Default texture
 const earthMaterial = new THREE.ShaderMaterial({
     vertexShader,
     fragmentShader,
@@ -204,6 +204,17 @@ starCountSlider.addEventListener('input', (event) => {
     const starCount = parseInt(event.target.value, 10);
     starCountValue.textContent = starCount.toLocaleString(); // Update display
     createStars(starCount);
+});
+
+// Switch Earth Texture Button Handler
+const switchTextureBtn = document.getElementById('switchTextureBtn');
+let isGreenEarth = false;
+switchTextureBtn.addEventListener('click', () => {
+    const texturePath = isGreenEarth ? '/assets/earth.jpg' : '/assets/green_earth.jpg';
+    const newTexture = new THREE.TextureLoader().load(texturePath);
+    earth.material.uniforms.globeTexture.value = newTexture;
+    switchTextureBtn.textContent = isGreenEarth ? 'Switch to Green Earth' : 'Switch to Earth';
+    isGreenEarth = !isGreenEarth;
 });
 
 // Ozone Controls
