@@ -35,15 +35,19 @@ This project is a 3D interactive visualization of Earth and the International Sp
     ```
     ```bash
     cd Earth
+
   ```
 
     ```bash
     npm install
+
      ```
-     
+
      ```bash
-    npm run dev      
+    npm run dev    
+      
     ```
+
 
 
 Access the application:
