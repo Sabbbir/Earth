@@ -39,22 +39,27 @@ Access the application:
 
 Once the server is running, navigate to the provided URL in your web browser to interact with the Earth Visualization app.
 
+## Project Directory Structure
+
+Here is the structure of the project showing the key files and directories:
+
+```bash
 .
-├── index.html                 # Main HTML file
-├── src/
-│   ├── main.js                # Core JavaScript file for three.js setup
-│   ├── shaders/
-│   │   ├── vertex.glsl            # Vertex shader for Earth
-│   │   ├── fragment.glsl          # Fragment shader for Earth
+├── index.html                  # Main HTML file
+├── src/                        # Source directory for project files
+│   ├── main.js                 # Core JavaScript file for three.js setup
+│   ├── shaders/                # Directory for shaders
+│   │   ├── vertex.glsl         # Vertex shader for Earth
+│   │   ├── fragment.glsl       # Fragment shader for Earth
 │   │   ├── atmosphereVertex.glsl  # Vertex shader for atmosphere
-│   │   ├── atmosphereFragment.glsl# Fragment shader for atmosphere
-│   │   ├── ozoneVertex.glsl       # Vertex shader for ozone layer
-│   │   └── ozoneFragment.glsl     # Fragment shader for ozone layer
-│   └── assets/
-│       ├── earth.jpg              # Texture for Earth surface
-│       └── satellites/
-│           └── ISS_stationary.glb # 3D model of the ISS
-├── package.json               # Project dependencies and scripts
-├── package-lock.json          # Lockfile for npm dependencies
-├── README.md                  # Project documentation
-└── .gitignore                 # Files to ignore in the Git repo
+│   │   ├── atmosphereFragment.glsl # Fragment shader for atmosphere
+│   │   ├── ozoneVertex.glsl    # Vertex shader for ozone layer
+│   │   └── ozoneFragment.glsl  # Fragment shader for ozone layer
+│   └── assets/                 # Assets directory
+│       ├── earth.jpg           # Texture for Earth surface
+│       └── satellites/         # Directory for 3D satellite models
+│           └── ISS_stationary.glb  # 3D model of the ISS
+├── package.json                # Project dependencies and scripts
+├── package-lock.json           # Lockfile for npm dependencies
+├── README.md                   # Project documentation
+└── .gitignore                  # Git ignore file to exclude unnecessary files
