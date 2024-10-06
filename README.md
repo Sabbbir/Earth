@@ -63,3 +63,24 @@ Here is the structure of the project showing the key files and directories:
 ├── package-lock.json           # Lockfile for npm dependencies
 ├── README.md                   # Project documentation
 └── .gitignore                  # Git ignore file to exclude unnecessary files
+
+## Usage
+
+Once the application is running, you can interact with the following features from the control panel:
+
+### Earth Rotation:
+- **Rotation Speed Slider**: Adjust the rotation speed of Earth.
+- **Reverse Rotation Button**: Toggle the rotation direction of Earth.
+- **Auto Rotate Button**: Automatically rotate the camera around Earth.
+
+### Star Count:
+- **Star Count Slider**: Modify the number of stars displayed in the background.
+
+### Ozone Layer:
+- **Radius Slider**: Control the size of Earth's ozone layer.
+- **Strength Slider**: Adjust the intensity of the ozone layer's glow.
+
+### ISS Orbit:
+- **Orbit Speed Slider**: Adjust the speed at which the ISS orbits Earth.
+- **Orbit Radius Slider**: Change the distance of the ISS from Earth.
+- **Scale Slider**: Modify the size of the ISS model.
