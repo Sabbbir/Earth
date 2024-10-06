@@ -151,7 +151,7 @@ If you find any bugs or have feature requests, please open an issue on [GitHub I
 If you have any questions or suggestions, feel free to reach out:
 
 - **Name**: Sabbir Ahmed
-- **Email**: [your-email@example.com](mailto:sabbir.ahmed.cse19.just@gmail.com)
+- **Email**: [sabbir.ahmed.cse19.just@gmail.com](mailto:sabbir.ahmed.cse19.just@gmail.com)
 - **GitHub**: [Sabbbir](https://github.com/Sabbbir)
 
 ## License
