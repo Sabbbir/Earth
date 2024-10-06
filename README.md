@@ -28,8 +28,7 @@ This project is a 3D interactive visualization of Earth and the International Sp
 ### Steps
 
 1. **Clone the repository**:
-    git clone https://github.com/Sabbbir/Earth.git
-    cd Earth
+    
 
 2. **Installation**:
     
@@ -39,6 +38,9 @@ This project is a 3D interactive visualization of Earth and the International Sp
     
     npm run dev    
 
+### Run locally
+    git clone https://github.com/Sabbbir/Earth.git
+    cd Earth
 ### Run locally
     npm i
     npm install
